@@ -21,8 +21,16 @@ namespace ClassMetotDemo
             MusteriManager musteriManager = new MusteriManager();
             musteriManager.Ekle(musteri1);
             musteriManager.Ekle(musteri2);
-            musteriManager.Listele(musteri1);
             musteriManager.Sil(musteri2);
+            musteriManager.Listele(musteri1);
+
+            Musteri[] musteriler = new Musteri[] {musteri1};
+            Console.WriteLine("Toplam musteri sayisi: " + musteriler.Length );
+
+         
+           
+           
+
 
 
 
